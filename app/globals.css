@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-montserrat), sans-serif;
+}
+.w-max-container {
+  max-width: 85rem;
+}
+
+/* Tambahkan ini ke file CSS Anda */
+tbody tr:nth-child(odd) {
+  background-color: rgb(12, 134, 217, 0.1); /* Warna latar belakang untuk baris ganjil */
+}
+tbody tr:nth-child(odd) .btn {
+  background-color: #0C86D9; /* Warna latar belakang untuk baris ganjil */
+} 
+
+tbody tr:nth-child(even) {
+  background-color: #ffffff; /* Warna latar belakang untuk baris genap */
+}
+
+tbody tr:nth-child(even) .btn{
+  background-color: #05B960; /* Warna latar belakang untuk baris genap */
+}
